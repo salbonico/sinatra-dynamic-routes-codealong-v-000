@@ -26,7 +26,7 @@ class App < Sinatra::Base
 
     @product = @num1 * @num2
 
-    @product
+    "#{@product}"
   end
 
 end
