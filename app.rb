@@ -25,7 +25,7 @@ class App < Sinatra::Base
     @num2 = params[:num2].to_i
 
     @product = @num1 * @num2
-    binding.pry
+
     "#{@product}"
   end
 
